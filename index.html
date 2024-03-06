@@ -2,10 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tugas</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#content">Resume</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My song</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="home-view center">
+            <img src="./image/yemimafix.png" alt="yemima">
+            <h4>Yemima</h4>
+            <h1>Hello!</h1>
+            <p>I am a student from <strong>North Sumatra</strong></p>
+            <p>pursuing a degree in Information Technology.</p>
+           
+        </article>
+
+        <div id="content" class="flex-container-column card layout-margin">
+            <h2>Resume</h2>
+            <div id="resume" class="flex-container-row">
+                <section class="resume-left">
+                    <article>
+                        <h3>Experience <strong>&raquo;</strong></h3>
+                        <div class="item-info">
+                            <h4>Easter Committee</h5>
+                            <b>Public Relations Member</b>
+                            <p>04/2023 - 10/2023</p>
+                        </div>
+
+                        <div class="item-info">
+                            <h4>AFL (Aiesec Future Leaders)</h4>
+                            <b>AFL participant</b>
+                            <p>06/2022 - 12/2022</p>
+                        </div>
+                        
+                        <div class="item-info">
+                            <h4>GDSC </h5>
+                            <b>Active Member </b>
+                            <p>10/2023 - Now</p>
+                        </div>
+                    </article>
+                    <article>
+                        <h3>Skills <strong>&raquo;</strong></h3>
+                        <div id="skills-item"></div>
+                    </article>
+                    <article>
+                        <h3>Tools <strong>&raquo;</strong></h3>
+                        <div id="tools-item"></div>
+                    </article>
+                </section>
+                <section class="resume-item">
+                    <article>
+                        <h3>Education <strong>&raquo;</strong></h3>
+                        <div class="item-info">
+                            <h4>University of North Sumatra</h5>
+                            <b>Information Technology</b>
+                            <p>12/2022 - Present</p>
+                        </div>
+                        <div class="item-info">
+                            <h4>St. Thomas High School 1 Medan</h5>
+                            <b>Sciences</b>
+                            <p>2019-2022</p>
+                        </div>
+                    </article>
+
+                </section>
+            </div>
+        </div>
+
+        
+        <aside id="about">
+            <article class="profile card">
+                <header>
+                    <h2>About</h2>
+                    <b><p>Yemima Simanjuntak</p></b>
+                    <figure>
+                        <img src="./image/yemimafix.png">
+                        <!-- <figcaption>Lambang</figcaption> -->
+                    </figure>
+                </header>
+                <section>
+                    
+                        
+                        <li>Indonesia, Medan</li>
+                    
+                    <table>
+                        
+                        <tr>
+                            <th>Born</th>
+                            <td>20 August 2005</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>yemimasimanjuntak2@gmail.com</td>
+                        </tr>
+                    </table>
+                </section>
+                
+            </article>
+        </aside>
+
+        
+        
+            <article class="flex-container-column service center">
+                <div id="services" class="layout-margin"></div>
+                <h2>My favorite song lately</h2>
+                <section class="flex-container-row">
+                    <article class="service-card service-data">
+                        <div class="text-container">
+                        <h4>Sleep Well</h4>
+                        <h5>-d4vd</h5>
+                        </div>
+                        <img src="./image/song1.jpeg" alt="Icon" class="small-icon" >
+                        <a href="https://youtu.be/iTWYa0t5COk?si=6LvQz-3LDuryVQgo" target="_blank">
+                            <button class="play-button">Play</button>
+                        </a>
+                    </article>
+                    <article class="service-card service-data">
+                        <div class="text-container">
+                        <h4>Valentina</h4>
+                        <h5>- Daniel Caesar</h5>
+                       </div>
+                       <img src="./image/song2.png" alt="Icon" class="small-icon" >
+                       <a href="https://youtu.be/Xc2D5NWzsfc?si=P1HAZXinv8cVLOd4" target="_blank">
+                        <button class="play-button">Play</button>
+                    </a>
+                    </article>
+                    <article class="service-card service-data">
+                        <div class="text-container">
+                        <h4>Make It Through</h4>
+                        <h5>- Leanna Crawford</h5>
+                        </div>
+                        <img src="./image/song3.jpeg" alt="Icon" class="small-icon" >
+                        <a href="https://youtu.be/a2akpYml-5U?si=NHe0LR-eX_3xfPTA" target="_blank">
+                            <button class="play-button">Play</button>
+                        </a>
+
+            
+                       
+                    </article>
+                </section>
+            </article>
+        </div>
+ 
+    </main>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
